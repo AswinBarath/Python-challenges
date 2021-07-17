@@ -1,8 +1,10 @@
 # Python-challenges
 
+## Challenge 1
 <details>
-  <summary> ## Challenge 1 </summary>
-  Problems on Object Oriented Programming using Python
+  <summary> Problems on Object Oriented Programming using Python: </summary>
+  <br/>
+  
   1. Create a class with name StringClass whihc should take string as an input from constructor. <br/>
   It should have a method to return length of the string. <br/>
   Another method to convert string to list of characters. <br/>
