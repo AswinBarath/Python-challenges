@@ -1,0 +1,4 @@
+# Challenge 7
+
+## Solve the problem Non repeating Character in Python
+

@@ -1,0 +1,106 @@
+# Challenge 2
+
+## Data Structures in Python
+
+
+
+1. Return all the duplicate values from list of lists
+
+Input:
+```
+[[1,1,3,2],[9,8,8,1],[0,4,5,0,0,1,4]]
+```
+
+Output:
+```
+1 -> 2
+8 -> 2
+0 -> 3,4 -> 2
+```
+
+
+
+2. Merge two lists as shown bellow
+
+Input:
+```
+list1 = ["Hello", "take"]
+list2 = ["Dear", "Sir"]
+```
+
+Output:
+```
+["Hello Dear", "Hello Sir, "take Dear", "take Sir"]
+```
+
+
+
+3. Given a nested list extend it by adding the sub list `['h', 'i', 'j'] in such a way that it will look like the following list
+
+Input:
+```
+list1 = ['a', 'b', ['c', ['d', 'e', ['f', 'g'], 'k'], 'i'], 'm', 'n']
+```
+
+Output:
+```
+['a', 'b', ['c', ['d', 'e', ['f', 'g', 'h', 'i', 'j'], 'k'], 'i'], 'm', 'n']
+```
+
+
+
+4. Map the dictionary in the following manner
+
+Input:
+```
+Keys = ['Ten', 'Twenty', 'Thirty']
+Value = [10,20,30]
+```
+
+Output:
+```
+{'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+```
+
+
+
+5. Merge following two python dictionaries into one
+
+Input:
+```
+dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+```
+
+Output:
+```
+{'Ten': 10, 'Twenty': 20, 'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+```
+
+
+
+6. Rename key city to location in the following dictionary
+
+Input:
+```
+sampleDict = {
+	"name": "Kelly",
+	"age": 25,
+	"salary": 8000,
+	"city": "New york"
+}
+```
+
+
+
+7. Convert Dictionary to list
+
+Input:
+```
+{'HuEx': [1,3,4], 'is': [7,6], 'best': [4,5]}
+```
+
+Output:
+```
+[['HuEx',1,3,4], ['is',7,6], ['best',4,5]]
+```

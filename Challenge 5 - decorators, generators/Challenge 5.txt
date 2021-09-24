@@ -1,0 +1,20 @@
+# Challenge 5
+
+## Decorators and Generators in Python
+
+
+1. Write a decorator which will take a function and execute it twice.
+
+The Input function
+```
+def multiply(num1, num2):
+	print(num1 * num2)
+```
+
+
+
+2. Create a generator to return the fibonacci sequence starting from the first element up to `n`.
+
+The fibonacci sequence looks like this:
+
+`0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...`

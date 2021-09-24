@@ -1,0 +1,16 @@
+# Challenge 3
+
+## map and lambda in Python
+
+
+1. Using a lambda function take the input of four integers a,b,c,x and give the output for the equation:
+`ax^2+bx+cx`
+
+
+
+2. Using `map()` function and `lambda` and `count()` function create a list consisting the number of occurences of letters: `A` and `a`.
+
+Input:
+```
+st1 = ["Alaska", "Alabama", "Arizona", "Arkansas", "Colorado", "Montana", "Nevada"]
+```

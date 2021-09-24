@@ -1,0 +1,28 @@
+# Challenge 6
+
+## File Handling and Exception Handling in Python
+
+
+### Problem Statement 1
+
+
+Write an interactive calculator!
+
+User input is assumed to be a formula that consist of a number, an operator (at least + and -) and another number, seperated by white space (e.g. 1 + 1).
+
+Split user input using str.split() and check whether the resulting list is valid:
+
+If the input does not consist of 3 elements, raise a FormulaError, which is a custom Exception.
+
+Try to convert the first and third input to a float. Catch any ValueError that occurs, and instead raise a FormulaError.
+
+If the second input is not '+' or '-', again raise a FormulaError.
+
+If the input is valid, perform the calculation and print out the result. The user is then promoted to provide new input, and so on, until the user enters quit.
+
+
+
+### Problem Statement 2
+
+
+Write a **python script** to identify the longest words in the file: `a.txt`.
